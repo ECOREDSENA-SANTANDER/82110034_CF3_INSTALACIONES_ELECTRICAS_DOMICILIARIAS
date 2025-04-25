@@ -58,21 +58,176 @@
     .row.justify-content-center.align-items-center(data-aos="fade")
       .col-lg-12
         TabsA.color-acento-botones
-          .tarjeta.color-primario.p-4(titulo="Arcos eléctricos")
-            p.mb-3 Logra la integración de autoridades locales, comunidad y actores clave del proceso.
-          .tarjeta.color-primario.p-4(titulo="Ausencia de suministro eléctrico")
-            p Define y asigna roles y responsabilidades para cada integrante del equipo.
-          .tarjeta.color-primario.p-4(titulo="Contacto directo con partes energizadas")
-            p Ajustar los planes de desarrollo en correspondencia con la estrategia para garantizar la gestión hacia un entorno o municipio saludable.
-          .tarjeta.color-primario.p-4(titulo="Contacto indirecto")
-            p Ajustar los planes de desarrollo en correspondencia con la estrategia para garantizar la gestión hacia un entorno o municipio saludable.
-          .tarjeta.color-primario.p-4(titulo="Riesgo por rayos (descargas atmosféricas)")
-            p Ajustar los planes de desarrollo en correspondencia con la estrategia para garantizar la gestión hacia un entorno o municipio saludable.
-          .tarjeta.color-primario.p-4(titulo="Cortocircuito")
-            p Ajustar los planes de desarrollo en correspondencia con la estrategia para garantizar la gestión hacia un entorno o municipio saludable.
-          .tarjeta.color-primario.p-4(titulo="Sobretensión de paso o de contacto")
-            p Ajustar los planes de desarrollo en correspondencia con la estrategia para garantizar la gestión hacia un entorno o municipio saludable.
 
+          .tarjeta.color-primario.p-4(titulo="Arcos eléctricos")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12
+                ul.lista-ul--color.lista-ul.fa-al
+                  li.mb-4
+                    i.fas.fa-check-circle
+                    p.mb-0 #[b Causas comunes:] malos contactos, cortocircuitos, operación de interruptores bajo carga, apertura o cierre incorrecto de seccionadores.
+                  li.mb-0
+                    i.fas.fa-check-circle
+                    p.mb-0 #[b Medidas de protección:] 
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Uso de envolventes resistentes a arcos eléctricos.
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Mantenimiento de distancias de seguridad.
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Uso de gafas de protección contra radiación ultravioleta.
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-1.png', alt='')
+
+          .tarjeta.color-primario.p-4(titulo="Ausencia de suministro eléctrico")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12
+                ul.lista-ul--color.lista-ul.fa-al
+                  li.mb-4
+                    i.fas.fa-check-circle
+                    p.mb-0 #[b Causas comunes:] cortes del servicio (apagones), falta de sistemas de respaldo como UPS o plantas eléctricas.
+                  li.mb-0
+                    i.fas.fa-check-circle
+                    p.mb-0 #[b Medidas de protección:] 
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Implementación de sistemas de alimentación ininterrumpida (UPS).
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Disponibilidad de plantas eléctricas con transferencia automática.
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-2.png', alt='')
+
+          .tarjeta.color-primario.p-4(titulo="Contacto directo con partes energizadas")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12
+                ul.lista-ul--color.lista-ul.fa-al
+                  li.mb-4
+                    i.fas.fa-check-circle
+                    p.mb-0 #[b Causas comunes:] negligencia del personal técnico, manipulación por personas no calificadas.
+                  li.mb-0
+                    i.fas.fa-check-circle
+                    p.mb-0 #[b Medidas de protección:] 
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Mantener distancias de seguridad.
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Colocación de barreras físicas o aislamiento de partes activas.
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Uso de interruptores diferenciales.
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Equipos de protección personal (EPP).
+                    li.mb-0
+                      i.fas.fa-circle
+                      p.mb-0 Verificación de ausencia de tensión antes de intervenir.
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-3.png', alt='')
+
+          .tarjeta.color-primario.p-4(titulo="Contacto indirecto")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12  
+                ul.lista-ul--color.lista-ul.fa-al  
+                  li.mb-4  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Causas comunes:] fallas en el aislamiento, mantenimiento deficiente, ausencia de conexión a tierra.  
+                  li.mb-0  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Medidas de protección:]   
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Separación de circuitos.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Uso de muy baja tensión (MBT).  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Correcta puesta a tierra de equipos.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Implementación de interruptores diferenciales.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Mantenimiento preventivo y correctivo.  
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-4.png', alt='')
+
+          .tarjeta.color-primario.p-4(titulo="Riesgo por rayos (descargas atmosféricas)")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12  
+                ul.lista-ul--color.lista-ul.fa-al  
+                  li.mb-4  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Causas comunes:] deficiencias en el diseño, instalación, operación o mantenimiento del sistema de protección contra rayos.  
+                  li.mb-0  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Medidas de protección:]   
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Instalación de pararrayos, bajantes y sistemas de puesta a tierra.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Apantallamiento y adecuada topología de cableado.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Suspensión de actividades en exteriores durante tormentas eléctricas.  
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-5.png', alt='')
+
+          .tarjeta.color-primario.p-4(titulo="Cortocircuito")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12  
+                ul.lista-ul--color.lista-ul.fa-al  
+                  li.mb-4  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Causas comunes:] fallas de aislamiento, errores humanos en la manipulación de instalaciones, impactos físicos sobre estructuras energizadas.  
+                  li.mb-0  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Medidas de protección:]   
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Instalación de fusibles o interruptores automáticos.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Uso de soportes con buen aislamiento y resistencia mecánica.  
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-6.png', alt='')
+
+          .tarjeta.color-primario.p-4(titulo="Sobretensión de paso o de contacto")
+            .row.justify-content-center.align-items-center.mb-5            
+              .col-lg-8.col-md-12.col-sm-12  
+                ul.lista-ul--color.lista-ul.fa-al  
+                  li.mb-4  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Causas comunes:] fallas de aislamiento, corrientes de falla a tierra, descargas atmosféricas, deficiencias en la puesta a tierra, acceso indebido a zonas restringidas.  
+                  li.mb-0  
+                    i.fas.fa-check-circle  
+                    p.mb-0 #[b Medidas de protección:]   
+                  ul.lista-ul--color.peq.lista-ul.fa-al.px-3  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Interconexión de sistemas de puesta a tierra para garantizar el mismo potencial eléctrico.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Instalación de puestas a tierra de baja resistencia.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Aislamiento de dispositivos accesibles al contacto humano.  
+                    li.mb-0  
+                      i.fas.fa-circle  
+                      p.mb-0 Señalización adecuada de zonas de riesgo.  
+              .col-lg-4.col-md-5.col-5
+                img(src='@/assets/curso/temas/t3/tab1-7.png', alt='')
 
 
 
