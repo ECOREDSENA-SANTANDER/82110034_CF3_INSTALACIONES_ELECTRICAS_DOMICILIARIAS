@@ -38,6 +38,26 @@ figcaption
 .banner-interno__fondo    
   background-image: url("../assets/curso/banner_interno.png") !important
 
+.subt
+  position: relative
+  width: fit-content
+  padding-right: 20px
+  &::before
+    content: ''
+    position: absolute
+    background-color: #14B8A6
+    border-radius: 200px
+    width: 100%
+    height: 75%
+    top: 7px
+    z-index: 0
+  h3, img
+    z-index: 999  
+    position: relative
+  @media (max-width: $bp-max-xs)
+    &::before
+      height: 100%
+      top: 1px
 
 // fondos
 
@@ -45,7 +65,10 @@ figcaption
   background-color: #F6F6F6
 
 .bgmorado
-  background-color: #E0E0FC
+  background-color: #E0E0FC 
+
+.bgamarilloclaro
+  background-color: #FEF5D0
   
 .borde-redondo
   border-radius: 25px
@@ -57,3 +80,77 @@ figcaption
 .borde-redondo-arriba
   border-top-left-radius: 20px
   border-top-right-radius: 20px
+
+// viñetas
+
+// viñetas
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+.fa-al
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 19px
+      font-size: 1.4rem
+
+.fa-check-circle:before
+  content: url('../assets/curso/temas/check-amarillo.png')
+
+// tema 1
+
+.tarj-hover
+  background-color: #A5B0D0
+  transition: all 0.3s ease-out
+  .tit
+    background-color: #FEF5D0
+    width: fit-content
+    margin: 0 auto
+    transition: all 0.3s ease-out
+  img
+    width: 210px 
+    margin: 0 auto 
+  &:hover
+    background-color: #FDEAA1
+    transition: all 0.3s ease-out
+    .tit
+      background-color: #14B8A6
+      color: $white
+      transition: all 0.3s ease-out
+
+// tema 2
+
+.tipo-a.acordion__activo
+  background-color: #E9ECF3
+  border-bottom: 0px !important
+  border-radius: 24px
+.acordion__accion__btn--a
+  border: 3px solid #DC2626
+  background-color: #DC2626
+  color: #FFF
+.acordion__accion__btn--b
+  border: 3px solid #DC2626
+  color: #DC2626
+.tipo-b.acordion__activo
+  background-color: #FEFAE8
+  border-bottom: 0px !important
+  border-radius: 24px
+.bg-trans
+  border-bottom: 1px solid #E8E8E8
+
+.fa-quote-left:before
+  content: url('../assets/curso/temas/t2/izq.png')
+.fas.fa-quote-right:before
+  content: url('../assets/curso/temas/t2/der.png')
+.bloque-texto-f.color-secundario:before 
+  background-color: #FDEAA1
+  border-radius: 25px

@@ -52,7 +52,7 @@ export default {
           id: 2,
           texto:
             'El Reglamento técnico para instalaciones eléctricas – RETIE, establece las medidas que garantizan el derecho al voto para todos los colombianos.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -75,7 +75,7 @@ export default {
           id: 3,
           texto:
             'Uno de los objetivos del RETIE es establecer las condiciones para evitar muerte de animales causada por cercas eléctricas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -98,7 +98,7 @@ export default {
           id: 4,
           texto:
             'Existe en el mercado de cables y alambres un tipo de productos mal llamados “económicos”, de acuerdo con el funcionamiento de estos cables y alambres “económicos” el nombre que los describe más exactamente es cables de alto riesgo o peligrosos.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -121,7 +121,7 @@ export default {
           id: 5,
           texto:
             'El cuadro de riesgo eléctrico es una herramienta utilizada para identificar, evaluar y gestionar los peligros asociados con la electricidad en un entorno específico.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -167,7 +167,7 @@ export default {
           id: 7,
           texto:
             'Una medida para protegerse de los rayos es realizar trabajos de alto riesgo al aire libre.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -190,7 +190,7 @@ export default {
           id: 8,
           texto:
             'El piso alrededor de los tableros de distribución debe estar aislado y aquellos elementos conectados a fuentes de alta tensión deben tener pantallas aislantes, que permitan su reparación o regulación sin tocarlos.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
           id: 9,
           texto:
             'Los equipos e instalaciones eléctricas deben construirse e instalarse evitando los contactos con fuentes de tensión y previendo la producción de incendio.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
