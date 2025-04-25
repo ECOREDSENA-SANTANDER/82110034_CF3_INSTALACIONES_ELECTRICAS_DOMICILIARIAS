@@ -67,6 +67,9 @@ figcaption
 .bgmorado
   background-color: #E0E0FC 
 
+.bgmoradooscuro
+  background-color: #A5B0D0
+
 .bgamarilloclaro
   background-color: #FEF5D0
   
@@ -81,7 +84,14 @@ figcaption
   border-top-left-radius: 20px
   border-top-right-radius: 20px
 
-// viñetas
+.bgfondo1
+  background: url('../assets/curso/temas/t2/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
 
 // viñetas
 
@@ -102,6 +112,13 @@ figcaption
       position: relative
       margin-right: 19px
       font-size: 1.4rem
+
+.lista-ul--color li > i:first-of-type 
+  color: black
+
+.lista-ul--color.peq li > i:first-of-type 
+  font-size: 5px
+  margin-top: 6px
 
 .fa-check-circle:before
   content: url('../assets/curso/temas/check-amarillo.png')
@@ -154,3 +171,47 @@ figcaption
 .bloque-texto-f.color-secundario:before 
   background-color: #FDEAA1
   border-radius: 25px
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/temas/t2/iz.svg')
+.fa-chevron-left:before 
+    content: url('../assets/curso/temas/t2/de.svg')
+.tarjeta--slyder.b1
+  background-color: #FDEAA1
+  height: 100%
+  box-shadow: 0 5px 6px rgba(0,0,0,0.23), 0 5px 6px rgba(0,0,0,0.23)
+.custom
+  .horizontal-scroll__wrapper
+    padding: 1rem 0.5rem 
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+.fa-quote-left.verde:before
+  content: url('../assets/curso/temas/t2/izqverde.png')
+.fas.fa-quote-right.verde:before
+  content: url('../assets/curso/temas/t2/derverde.png')
+.bloque-texto-f.color-adicional:before 
+  background-color: #E0E0FC
+  border-radius: 25px
+
+// tema3
+
+.tabs-a__tab 
+  background-color: #14B8A6
+  font-size: 14px
+  padding-left: 4px !important
+  padding-right: 4px !important
+  padding-bottom: 10px !important
+  padding-top: 10px !important
+  color: white
+  width: 102%
+  
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: white !important
+
+.tarjeta.color-primario 
+  background-color: #FEF5D0 !important
+
+.tarjeta.color-primario * 
+  color: black !important
