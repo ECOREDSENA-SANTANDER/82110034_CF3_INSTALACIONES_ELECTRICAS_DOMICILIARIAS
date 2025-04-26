@@ -86,7 +86,7 @@
               i.fas.fa-check-circle
               | Apoyar la preservación del medio ambiente.
         .col-lg-4.col-md-6.col-12
-          img(src='@/assets/curso/temas/t1/img3.png', alt='')
+          img(src='@/assets/curso/temas/t1/img3.png', alt='').d-none.d-lg-block
 
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(

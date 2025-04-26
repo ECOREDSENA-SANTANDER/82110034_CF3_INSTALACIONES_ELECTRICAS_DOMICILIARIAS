@@ -11,7 +11,7 @@
       .col-sm-12.col-md-12.col-lg-5
         .row.bgmoradooscuro.borde-redondo
           p.px-5.ml-mr-3.py-2.mt-2.mb-2 El riesgo eléctrico se refiere a la posibilidad de que una persona sufra daños o lesiones debido al contacto directo o indirecto con la electricidad, así como a fallas en los sistemas eléctricos, estos riesgos pueden derivarse de situaciones como descargas eléctricas, cortocircuitos, sobrecargas, arcos eléctricos, incendios, explosiones o fallas en el aislamiento de los conductores.
-      .col-6.col-md-6.col-lg-3
+      .col-12.col-md-6.col-lg-3
         img.mt-2(src='@/assets/curso/temas/t3/img1.png', alt='')
       .col-sm-12.col-md-12.col-lg-4
         .row.align-items-center
@@ -52,7 +52,7 @@
         | Efectos de la electricidad según la intensidad de corriente
       figure
         img.mb-2(src='@/assets/curso/temas/t3/fig1.png', alt='La figura indica que los efectos de la corriente eléctrica en el cuerpo dependen de su intensidad. Desde cosquilleo leve (1-3 mA) hasta riesgo de muerte por fibrilación ventricular (60-75 mA). A mayor intensidad, mayores daños: contracciones musculares, paro respiratorio, asfixia y afectación del corazón.')
-      figcaption Fuente: Fuente: https://www.unirioja.es/servicios/sprl/pdf/riesgos_electricos.pdf
+      figcaption Fuente: https://www.unirioja.es/servicios/sprl/pdf/riesgos_electricos.pdf
 
 
     .row.justify-content-center.align-items-center(data-aos="fade")
@@ -79,7 +79,7 @@
                     li.mb-0
                       i.fas.fa-circle
                       p.mb-0 Uso de gafas de protección contra radiación ultravioleta.
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-1.png', alt='')
 
           .tarjeta.color-primario.p-4(titulo="Ausencia de suministro eléctrico")
@@ -99,7 +99,7 @@
                     li.mb-0
                       i.fas.fa-circle
                       p.mb-0 Disponibilidad de plantas eléctricas con transferencia automática.
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-2.png', alt='')
 
           .tarjeta.color-primario.p-4(titulo="Contacto directo con partes energizadas")
@@ -128,7 +128,7 @@
                     li.mb-0
                       i.fas.fa-circle
                       p.mb-0 Verificación de ausencia de tensión antes de intervenir.
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-3.png', alt='')
 
           .tarjeta.color-primario.p-4(titulo="Contacto indirecto")
@@ -157,7 +157,7 @@
                     li.mb-0  
                       i.fas.fa-circle  
                       p.mb-0 Mantenimiento preventivo y correctivo.  
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-4.png', alt='')
 
           .tarjeta.color-primario.p-4(titulo="Riesgo por rayos (descargas atmosféricas)")
@@ -180,7 +180,7 @@
                     li.mb-0  
                       i.fas.fa-circle  
                       p.mb-0 Suspensión de actividades en exteriores durante tormentas eléctricas.  
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-5.png', alt='')
 
           .tarjeta.color-primario.p-4(titulo="Cortocircuito")
@@ -200,7 +200,7 @@
                     li.mb-0  
                       i.fas.fa-circle  
                       p.mb-0 Uso de soportes con buen aislamiento y resistencia mecánica.  
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-6.png', alt='')
 
           .tarjeta.color-primario.p-4(titulo="Sobretensión de paso o de contacto")
@@ -226,7 +226,7 @@
                     li.mb-0  
                       i.fas.fa-circle  
                       p.mb-0 Señalización adecuada de zonas de riesgo.  
-              .col-lg-4.col-md-5.col-5
+              .col-lg-4.col-md-7.col-12
                 img(src='@/assets/curso/temas/t3/tab1-7.png', alt='')
 
 

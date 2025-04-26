@@ -225,17 +225,17 @@
 
           .col-lg-8.col-md-10
             SlyderF.custom(columnas="col-lg-6 col-md-6 col-xl-6").mt-4
-              .tarjeta.tarjeta--slyder.b1.px-4
+              .tarjeta.tarjeta--slyder.amarilla.px-4
                 .row.justify-content-center
                   .col-auto
                     img(data-aos="zoom-in-left")(src='@/assets/curso/temas/t2/tar1-1.png' alt='AvatarTop')
                 p.mb-4.mt-0.text-center(data-aos="fade-right") Declaran un calibre que no corresponde a su verdadera sección de conductor.    
-              .tarjeta.tarjeta--slyder.b1.px-4
+              .tarjeta.tarjeta--slyder.amarilla.px-4
                 .row.justify-content-center
                   .col-auto
                     img(data-aos="zoom-in-left")(src='@/assets/curso/temas/t2/tar1-2.png' alt='AvatarTop')
                 p.mb-4.mt-0.text-center(data-aos="fade-right") Utilizan recubrimientos de baja calidad, sin propiedades aislantes certificadas para uso eléctrico.    
-              .tarjeta.tarjeta--slyder.b1.px-4
+              .tarjeta.tarjeta--slyder.amarilla.px-4
                 .row.justify-content-center
                   .col-auto
                     img(data-aos="zoom-in-left")(src='@/assets/curso/temas/t2/tar1-3.png' alt='AvatarTop')
