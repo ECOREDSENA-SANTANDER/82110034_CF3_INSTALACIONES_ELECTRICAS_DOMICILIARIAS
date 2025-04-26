@@ -7,7 +7,7 @@
           span 1
         h1 Estándares internacionales
         
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img1.png')})`}"
         )
@@ -88,7 +88,7 @@
         .col-lg-4.col-md-6.col-12
           img(src='@/assets/curso/temas/t1/img3.png', alt='').d-none.d-lg-block
 
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img4.png')})`}"
         )

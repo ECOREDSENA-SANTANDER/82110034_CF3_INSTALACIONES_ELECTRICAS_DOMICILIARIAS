@@ -325,7 +325,7 @@
 
     p.mb-4 Estas pruebas se realizaron conforme a los requisitos establecidos por el RETIE, las normas técnicas colombianas (NTC) y las normas internacionales UL, evidenciando múltiples incumplimientos técnicos y riesgos asociados.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
       .titulo-sexto.color-acento-contenido
         h5 Tabla 1. 
         | Amperaje que soportan los cables de cobre
