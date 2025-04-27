@@ -186,7 +186,7 @@
                   p.mb-0 Profesionales, tecnólogos y técnicos del sector eléctrico, quienes deben ejercer su labor con responsabilidad técnica, ética y conforme a las normas vigentes.
               .row.align-items-center.mb-3
                 .col-auto.bgamarilloclaro.borde-redondo
-                  h3.px-1.pt-3 Normativa de seguridad (RETIE)
+                  h3.px-1.pt-1.pb-0.mb-1 Normativa de seguridad (RETIE)
               p.mb-2 El Reglamento Técnico de Instalaciones Eléctricas (RETIE) establece lineamientos claros sobre la forma de realizar empalmes según el nivel de tensión:
               ul.lista-ul--color.lista-ul.fa-al
                 li.mb-2
@@ -255,7 +255,7 @@
       .col-lg-8.col-md-12.col-sm-12
         .row.align-items-center.mb-3(data-aos="fade-right")
           .col-auto.bgamarilloclaro.borde-redondo
-            h3.px-1.pt-3 a) Alambre para construcción calibre 12 AWG
+            h3.px-1.pt-1.pb-0.mb-1 a) Alambre para construcción calibre 12 AWG
         ul.lista-ul--color.lista-ul.fa-al
           li.mb-0
             i.fas.fa-check-circle
@@ -268,7 +268,7 @@
             p.mb-0 #[b Hallazgo en laboratorio:] el diámetro real del conductor en las muestras evaluadas no supera los 1.60 mm, lo cual ni siquiera corresponde al calibre 14 AWG, evidenciando una clara subvaloración del material conductor.
         .row.align-items-center.mb-3(data-aos="fade-right")
           .col-auto.bgamarilloclaro.borde-redondo
-            h3.px-1.pt-3 b) Cable dúplex para instalación interior calibre 2x18 AWG
+            h3.px-1.pt-1.pb-0.mb-1 b) Cable dúplex para instalación interior calibre 2x18 AWG
         ul.lista-ul--color.lista-ul.fa-al
           li.mb-0
             i.fas.fa-check-circle

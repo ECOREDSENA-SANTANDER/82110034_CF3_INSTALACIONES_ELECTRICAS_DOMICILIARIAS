@@ -60,7 +60,7 @@
 
       .row.align-items-center.mb-3(data-aos="fade-right")
         .col-auto.bgamarilloclaro.borde-redondo
-          h3.px-1.pt-2 Misión de la CEI o IEC
+          h3.px-1.pt-1.pb-0.mb-1 Misión de la CEI o IEC
 
       p La misión principal de la CEI es fomentar la cooperación internacional en todos los aspectos relacionados con la normalización electrotécnica. Para ello, se han propuesto los siguientes objetivos estratégicos:
 

@@ -72,6 +72,13 @@ figcaption
 
 .bgamarilloclaro
   background-color: #FEF5D0
+
+.bgamarillooscuro
+  background-color: #C8A311
+
+  
+.bgverde
+  background-color: #14B8A6
   
 .borde-redondo
   border-radius: 25px
@@ -102,6 +109,26 @@ figcaption
   @media screen and (max-width: 992px)
     margin-inline: -1.4rem
 
+.bgfondo3
+  background: url('../assets/curso/temas/t6/fondo1.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.bgfondo4
+  background: url('../assets/curso/temas/t6/fondo2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+
+.bgfondo5
+  background: url('../assets/curso/temas/t6/fondo3.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
 
 // viñetas
 
@@ -226,9 +253,40 @@ figcaption
 .tarjeta.color-primario * 
   color: black !important
 
-// tema 4
+// tema 4 y 5
 
 .tarjeta.b1
   background-color: #1E3A8A
 .tarjeta.b2
   background-color: #A5B0D0
+
+// tema 6
+
+.tarjeta--slyder.blanca
+  background-color: white
+  height: 100%
+  box-shadow: 0 5px 6px rgba(0,0,0,0.23), 0 5px 6px rgba(0,0,0,0.23)
+   
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #A5B0D0
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em  
