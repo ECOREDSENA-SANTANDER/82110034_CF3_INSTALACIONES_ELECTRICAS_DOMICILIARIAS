@@ -179,6 +179,8 @@
       .col-auto.bgamarilloclaro.borde-redondo
         h3.px-1.pt-1.pb-0.mb-1 Canalización de la instalación eléctrica
 
+    p xxxx
+
     
 
 
