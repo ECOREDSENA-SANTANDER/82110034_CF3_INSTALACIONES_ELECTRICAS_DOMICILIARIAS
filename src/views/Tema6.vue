@@ -7,16 +7,16 @@
         span 6
       h1 Obra civil y requerimientos técnicos para instalaciones eléctricas
 
+    p.mb-4 Este apartado abarca todas las actividades de adecuación estructural necesarias para garantizar una instalación eléctrica segura, funcional y eficiente en edificaciones. La obra civil asociada a las instalaciones eléctricas incluye desde la interpretación de planos hasta la ejecución de canalizaciones y montaje de dispositivos de control y protección.
+
+    .subt.mb-4(data-aos="fade-right")
+      .row.align-items-center
+        .col-md-auto.col-3
+          img(src='@/assets/curso/ico_subt.svg', alt='')
+        .col-md-auto.col-9.ps-0
+          h3.mb-0.text-white Tipos de instalaciones eléctricas según su visibilidad y protección
+
     .row.bgfondo3
-
-      p.mb-4.px-5 Este apartado abarca todas las actividades de adecuación estructural necesarias para garantizar una instalación eléctrica segura, funcional y eficiente en edificaciones. La obra civil asociada a las instalaciones eléctricas incluye desde la interpretación de planos hasta la ejecución de canalizaciones y montaje de dispositivos de control y protección.
-
-      .subt.mb-4(data-aos="fade-right").px-5
-        .row.align-items-center
-          .col-md-auto.col-3
-            img(src='@/assets/curso/ico_subt.svg', alt='')
-          .col-md-auto.col-9.ps-0
-            h3.mb-0.text-white Tipos de instalaciones eléctricas según su visibilidad y protección
 
       p.mb-4.px-5 Las instalaciones eléctricas se clasifican en función de su disposición en la estructura y del nivel de protección frente a esfuerzos mecánicos y condiciones ambientales:
 
@@ -179,11 +179,180 @@
       .col-auto.bgamarilloclaro.borde-redondo
         h3.px-1.pt-1.pb-0.mb-1 Canalización de la instalación eléctrica
 
-    p xxxx
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/t6/img7.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        <br> <br> <br> <br>    
+        p.mb-0 Las canalizaciones eléctricas y sus accesorios son elementos esenciales en una instalación eléctrica, ya que permiten interconectar conductores y dispositivos como interruptores, tomacorrientes y equipos de protección. Su diseño y disposición deben asegurar funcionalidad, seguridad y facilidad de mantenimiento.
+        <br> <br> <br> <br> <br>
 
+    .row.justify-content-center.align-items-center.mb-4.mt-4
+      .col-lg-12.col-md-12.col-sm-12
+        ul.lista-ul--color.lista-ul--separador.fa-al.mb-0
+          li.mb-2
+            i.fas.fa-check-circle
+            span #[b Caja de protección:] la instalación inicia en la caja de protección, que se ubica junto al punto de entrada de la acometida, empotrada en el muro. Desde esta caja se distribuyen los diferentes circuitos eléctricos de la vivienda. Es fundamental respetar las distancias de seguridad establecidas para evitar interferencias con otras canalizaciones y reducir riesgos durante taladros o modificaciones en las paredes.
+          li.mb-2
+            i.fas.fa-check-circle
+            span #[b Cajas de mecanismos:] las cajas de mecanismos alojan dispositivos como interruptores, tomacorrientes, pulsadores, tomas telefónicas o de televisión. Estas cajas se perforan en los laterales o en la parte posterior para permitir el paso de los tubos. Los mecanismos se fijan con tornillos o grapas de presión.
+          li.mb-2
+            i.fas.fa-check-circle
+            span #[b Cajas de derivación:] las cajas de derivación permiten la interconexión de diferentes circuitos. Se instalan a una altura de entre 30 y 50 cm del techo. Su tamaño depende del número de tubos que confluyen en ellas. Las conexiones internas se realizan mediante regletas o clemas normalizadas, que aseguran un empalme seguro y ordenado.
     
+    .row.align-items-center.mb-4(data-aos="fade-right")
+      .col-auto.bgamarilloclaro.borde-redondo
+        h3.px-1.pt-1.pb-0.mb-1 Tipos de circuitos
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.b1.p-5(data-aos='fade-left')
+        .row.align-items-center.mb-0
+          .col-auto
+            img.mb-2(src='@/assets/curso/temas/t6/tar3-1.png', alt='Texto que describa la imagen')  
+          .col-auto
+            h2.text-white.bgverde.p-1 a) Circuito sencillo       
+          p.text-white Permite encender o apagar un punto de luz desde un solo interruptor.
+          ul.lista-ul--color.lista-ul.fa-al.mb-0
+            li.mb-2
+              i.fas.fa-check-circle.morada
+              span.text-white El interruptor se conecta siempre al conductor de fase.
+            li.mb-2
+              i.fas.fa-check-circle.morada
+              span.text-white Las conexiones dentro de la caja de derivación deben realizarse con regletas normalizadas o clemas.
+      .col-md.tarjeta.b2.p-5(data-aos='fade-right')
+        .row.align-items-center.mb-0
+          .col-auto
+            img.mb-2(src='@/assets/curso/temas/t6/tar3-2.png', alt='Texto que describa la imagen')  
+          .col-auto
+            h2.text-white.bgverde.p-1 b) Circuito conmutado    
+          p Permite controlar un mismo punto de luz desde dos lugares distintos, mediante dos interruptores conmutados.
+          ul.lista-ul--color.lista-ul.fa-al.mb-0
+            li.mb-2
+              i.fas.fa-check-circle.azul
+              span El conductor de fase se conecta al borne común del primer   interruptor.
+            li.mb-2
+              i.fas.fa-check-circle.azul
+              span  El borne común del segundo interruptor se conecta al punto de luz.
+            li.mb-2
+              i.fas.fa-check-circle.azul
+              span  El cable entre ambos interruptores puede identificarse con color naranja u otro disponible.
+    
+    .subt.mb-5(data-aos="fade-right")
+      .row.align-items-center
+        .col-md-auto.col-3
+          img(src='@/assets/curso/ico_subt.svg', alt='')
+        .col-md-auto.col-9.ps-0
+          h3.mb-0.text-white Accesorios y dispositivos eléctricos utilizados
 
 
+    .row.justify-content-center.align-items-center
+      .col-lg-12
+        AcordionA.mb-5(tipo="b" clase-tarjeta="bg-trans tipo-b")
+          .row.justify-content-center(titulo="Canalizaciones")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-1.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Tuberías de plástico (poliducto):] medidas comunes: ½”, ¾”, 1”, 5/4”, 1½”. El espacio ocupado por los conductores no debe superar el 40 % del volumen interno de la tubería para permitir la disipación del calor.
+          .row.justify-content-center(titulo="Cajas")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-2.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Rectangulares (chalupas):] para #[em breakers] y tomas.
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Octagonales (hexagonales en el mercado):] para salidas de techo y portalámparas.
+          .row.justify-content-center(titulo="Portalámparas de porcelana")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-3.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Posee dos tornillos:] uno conecta el conductor neutro a la rosca del casquillo del bombillo; el otro conecta el conductor de fase al contacto central del bombillo.
+          .row.justify-content-center(titulo="Interruptores (<em>breakers</em>)")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-4.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Sencillos:] controlan uno o más bombillos desde un punto, se instalan a 1.25 m de altura y a 30 cm del marco de la puerta.
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b De tres vías (conmutados):] controlan bombillos desde dos ubicaciones distintas.
+          .row.justify-content-center(titulo="Tomacorrientes (tomas)")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-5.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Sencillos o dobles:] se instalan entre 30 y 50 cm del piso.
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Polarizados:] incluyen conexión a tierra para mayor seguridad.
+          .row.justify-content-center(titulo="Conductores")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-6.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Calibres más comunes:] 14 (retornos), 12 (tomas y tierra física), 10 (equipos como aire acondicionado), 16 (timbres), 8 (acometidas).
+          .row.justify-content-center(titulo="Transformador")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-7.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              p Ubicado en el poste externo. Proporciona energía con:
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 127 V entre fase y neutro.
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 220 V entre dos fases.
+          .row.justify-content-center(titulo="Interruptor termomagnético")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-8.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              p Protege la instalación contra cortocircuitos y sobrecargas, desconectando automáticamente el circuito cuando se excede la capacidad de corriente.
+          .row.justify-content-center(titulo="Fusibles")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-9.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Tipo tapón o cartucho:] protegen mediante la fusión del hilo conductor ante una sobre corriente.
+          .row.justify-content-center(titulo="Varillas de puesta a tierra")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-10.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 No se permite aluminio.
+                li.mb-0
+                  i.fas.fa-check-circle
+                  p.mb-0 Deben tener al menos 2.4 m de largo y garantía de 15 años contra la corrosión.
+          .row.justify-content-center(titulo="Medidor de energía")
+            .col-auto
+              img.mb-2(src='@/assets/curso/temas/t6/acor1-11.png', alt='')
+            .col-lg-7.col-md-12.col-sm-12
+              ul.lista-ul--color.lista-ul.fa-al.mb-0
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b De inducción:] basado en corrientes inducidas.
+                li.mb-2
+                  i.fas.fa-check-circle
+                  p.mb-0 #[b Estáticos:] emplean electrónica de estado sólido para registrar el consumo.
 
 
 </template>
