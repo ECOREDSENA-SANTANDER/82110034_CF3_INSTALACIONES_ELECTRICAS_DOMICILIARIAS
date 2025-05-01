@@ -9,7 +9,7 @@
 
     p.mb-4 Este apartado abarca todas las actividades de adecuación estructural necesarias para garantizar una instalación eléctrica segura, funcional y eficiente en edificaciones. La obra civil asociada a las instalaciones eléctricas incluye desde la interpretación de planos hasta la ejecución de canalizaciones y montaje de dispositivos de control y protección.
 
-    .subt.mb-4(data-aos="fade-right")
+    .subt2.mb-4(data-aos="fade-right")
       .row.align-items-center
         .col-md-auto.col-3
           img(src='@/assets/curso/ico_subt.svg', alt='')
