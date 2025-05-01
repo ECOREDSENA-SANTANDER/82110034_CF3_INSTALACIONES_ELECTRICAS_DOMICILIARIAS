@@ -27,7 +27,7 @@
                       i.fas.fa-check-circle
                       p.mb-0 Destornillador de estrella (o Phillips).
                   p.bgmorado.borde-redondo.p-3 La punta del destornillador debe coincidir exactamente con la ranura del tornillo para evitar daños. Para mayor precisión, se recomienda usar destornilladores magnetizados, ya que permiten sostener el tornillo y facilitar su colocación en espacios reducidos o de difícil acceso.
-                .col-6.col-md-6.col-lg-4
+                .col-12.col-md-6.col-lg-4
                   img.mt-5(src='@/assets/curso/temas/t7/img1.png' alt='')
 
               .row.justify-content-center.align-items-center
@@ -47,7 +47,7 @@
                     li.mb-0
                       i.fas.fa-check-circle
                       p.mb-0 #[b Pinzas pelacables:] diseñadas específicamente para retirar el aislamiento de los conductores sin dañarlos.
-                .col-6.col-md-6.col-lg-4
+                .col-12.col-md-6.col-lg-4
                   img.mt-5(src='@/assets/curso/temas/t7/img2.png' alt='')
 
               .row.justify-content-center.align-items-center
@@ -64,10 +64,78 @@
                     li.mb-0
                       i.fas.fa-check-circle
                       p.mb-0 Golpear cinceles o realizar ajustes en elementos estructurales.
-                .col-6.col-md-6.col-lg-4
+                .col-12.col-md-6.col-lg-4
                   img.mt-5(src='@/assets/curso/temas/t7/img3.png' alt='')
 
+              .row.justify-content-center.align-items-center
+                .col-sm-12.col-md-12.col-lg-7
+                  h3.mt-4 Lima
+                  p.mb-3 La lima es una herramienta de acero con acanaladuras (rectas o curvas) que permiten desbastar o alisar superficies. Existen diferentes tipos: planas, redondas y triangulares. Se utiliza principalmente para eliminar rebabas o asperezas en tubos metálicos después de ser cortados.
+                .col-6.col-md-6.col-lg-4
+                  img.mt-5(src='@/assets/curso/temas/t7/img6.png' alt='')
 
+              .row.justify-content-center.align-items-center
+                .col-sm-12.col-md-12.col-lg-7
+                  h3.mt-4 Arco segueta
+                  p.mb-3 Herramienta formada por un marco (arco) con un mango y una hoja de sierra (segueta). La segueta es una lámina delgada de acero con dientes en un borde, orientados en sentido contrario al mango. Se emplea para cortar tubos conductores, ya sean metálicos o plásticos.
+                .col-12.col-md-6.col-lg-4
+                  img.mt-5(src='@/assets/curso/temas/t7/img7.png' alt='')
+
+              .row.justify-content-center.align-items-center
+                .col-sm-12.col-md-12.col-lg-7
+                  h3.mt-4 Guía de acero
+                  p.mb-3 Es una cinta metálica delgada, flexible pero firme, que se utiliza para introducir conductores eléctricos dentro de una tubería. En su extremo tiene un ojal que permite sujetar los cables. Su uso consiste en:
+                  ul.lista-ul--color.lista-ul.fa-al.mb-0
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 Introducir la guía por una caja de conexión hasta que asome por la caja opuesta.
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 Atar los cables al ojal.
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 Jalar la guía para arrastrar los conductores a través del tubo.
+                .col-12.col-md-6.col-lg-4
+                  img.mt-5(src='@/assets/curso/temas/t7/img8.png' alt='')
+
+              .row.justify-content-center.align-items-center
+                .col-sm-12.col-md-12.col-lg-7
+                  h3.mt-4 Cincel
+                  p.mb-3 Herramienta de acero utilizada para abrir huecos en muros o pisos. Se emplea para:
+                  ul.lista-ul--color.lista-ul.fa-al.mb-0
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 Instalar cajas de conexión.
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 Realizar ranuras para ocultar la tubería eléctrica.
+                .col-12.col-md-6.col-lg-4
+                  img.mt-5(src='@/assets/curso/temas/t7/img9.png' alt='')
+
+              .row.justify-content-center.align-items-center
+                .col-sm-12.col-md-12.col-lg-7
+                  h3.mt-4 Pinza amperimétrica
+                  p.mb-2 Es un tipo especial de amperímetro que permite medir la corriente eléctrica sin necesidad de abrir el circuito. Su funcionamiento se basa en la detección del campo magnético generado por la corriente al circular por un conductor.
+                  p.mb-3 Posee una “pinza” o sensor que se abre y se coloca alrededor del cable a medir. Este sistema es seguro y práctico, ya que no requiere contacto directo con el conductor ni retirar el aislamiento del cable.
+                .col-12.col-md-6.col-lg-4
+                  img.mt-5(src='@/assets/curso/temas/t7/img10.png' alt='')
+
+              .row.justify-content-center.align-items-center
+                .col-sm-12.col-md-12.col-lg-7
+                  h3.mt-4 Multímetro
+                  p.mb-3 También conocido como polímetro o tester, es una herramienta multifunción que permite medir distintas magnitudes eléctricas con un solo dispositivo. Entre sus funciones más comunes se encuentran:
+                  ul.lista-ul--color.lista-ul.fa-al.mb-0
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 #[b Voltímetro:] mide voltaje.
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 #[b Amperímetro:] mide corriente.
+                    li.mb-0
+                      i.fas.fa-check-circle
+                      p.mb-0 #[b Óhmetro:] mide resistencia eléctrica.
+                .col-12.col-md-6.col-lg-4
+                  img.mt-5(src='@/assets/curso/temas/t7/img11.png' alt='')
 
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade")
