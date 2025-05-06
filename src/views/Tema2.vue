@@ -58,7 +58,7 @@
                 .bloque-texto-f__comillas
                   i.fas.fa-quote-left
                   i.fas.fa-quote-right
-                h4.text-regular.bloque-texto-f__texto.text-center.p-3 Un documento en el que se establecen las características de un producto, los procesos y métodos de producción relacionados con ellas, incluyendo las disposiciones administrativas aplicables, y cuya observancia es obligatoria (Ministerio de Minas y Energía, 2024).
+                h4.text-regular.bloque-texto-f__texto.text-center.p-3 #[b Un documento en el que se establecen las características de un producto, los procesos y métodos de producción relacionados con ellas, incluyendo las disposiciones administrativas aplicables, y cuya observancia es obligatoria (Ministerio de Minas y Energía, 2024).]
               p.mb-2 También puede incluir aspectos como terminología, símbolos, embalaje, marcado o etiquetado, siempre que estén relacionados con productos, procesos o métodos de producción.
               p.mb-2 En el ámbito eléctrico, las normas de electrotecnia han tenido tradicionalmente dos fines esenciales:
               ul.lista-ul--color.lista-ul.fa-al.mb-2
@@ -72,39 +72,50 @@
           .row(titulo="Objetivos específicos del RETIE")
             .col-md-12.pe-lg-5
               p.mb-5 Para cumplir con su propósito de garantizar la seguridad eléctrica, el RETIE establece los siguientes objetivos específicos:
-              ol.lista-ol.fa-ol
+              ol.lista-ol--cuadro.fa-ol
                 li 
-                  span.text-bold a) 
+                  .lista-ol--cuadro__vineta
+                    span.text-bold a) 
                   | Establecer condiciones técnicas que eviten accidentes por contacto eléctrico, tanto directos como indirectos, protegiendo así la vida de las personas.
                 li 
-                  span.text-bold b) 
+                  .lista-ol--cuadro__vineta
+                    span.text-bold b) 
                   | Prevenir incendios originados por fallas eléctricas, mediante normas que aseguren una adecuada instalación y operación de los sistemas eléctricos.
                 li 
-                  span.text-bold c) 
+                  .lista-ol--cuadro__vineta
+                    span.text-bold c) 
                   | Evitar la quema de árboles u otra vegetación causada por el contacto o la cercanía con líneas de transmisión o distribución de energía eléctrica.
                 li 
-                  span.text-bold d) 
+                  .lista-ol--cuadro__vineta
+                   span.text-bold d) 
                   | Proteger la vida animal, estableciendo condiciones que prevengan la muerte de animales por contacto con cercas u otras instalaciones eléctricas expuestas.
                 li
-                  span.text-bold e)   
+                  .lista-ol--cuadro__vineta
+                    span.text-bold e)   
                   | Prevenir daños en instalaciones eléctricas causados por sobre corrientes o sobretensiones, mediante la implementación de protecciones adecuadas.  
                 li   
-                  span.text-bold f)   
+                  .lista-ol--cuadro__vineta
+                    span.text-bold f)   
                   | Adoptar y normalizar el uso de símbolos verbales y gráficos, que deben ser utilizados por los profesionales del sector eléctrico para garantizar una comunicación clara y estandarizada.  
                 li   
-                  span.text-bold g)   
+                  .lista-ol--cuadro__vineta
+                    span.text-bold g)   
                   | Reducir las deficiencias en las instalaciones eléctricas, promoviendo su diseño, construcción y mantenimiento bajo criterios de calidad y seguridad.  
                 li   
-                  span.text-bold h)   
+                  .lista-ol--cuadro__vineta
+                   span.text-bold h)   
                   | Establecer los requisitos y responsabilidades que deben cumplir los diferentes actores del sector eléctrico, incluyendo diseñadores, constructores, operadores, propietarios, usuarios, fabricantes, distribuidores e importadores de materiales y equipos eléctricos.  
                 li   
-                  span.text-bold i)   
+                  .lista-ol--cuadro__vineta
+                    span.text-bold i)   
                   | Unificar las características esenciales de seguridad de los productos eléctricos de mayor uso, con el fin de garantizar su confiabilidad en funcionamiento y su compatibilidad con el sistema eléctrico nacional.  
                 li   
-                  span.text-bold j)   
+                  .lista-ol--cuadro__vineta
+                    span.text-bold j)   
                   | Prevenir prácticas engañosas o incorrectas que puedan inducir a error al usuario, como la difusión de información falsa o la omisión de datos relevantes que impidan cumplir con las exigencias del reglamento.  
                 li   
-                  span.text-bold k)   
+                  .lista-ol--cuadro__vineta
+                    span.text-bold k)   
                   | Exigir la confiabilidad y compatibilidad técnica de los productos y equipos eléctricos contemplados expresamente en el reglamento, para asegurar un funcionamiento seguro y eficiente.  
           .row(titulo="Campo de aplicación del RETIE")
             .col-md-12.pe-lg-5
