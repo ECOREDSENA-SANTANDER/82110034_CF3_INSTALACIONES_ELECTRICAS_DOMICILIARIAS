@@ -258,7 +258,7 @@
         .bloque-texto-f__comillas
           i.fas.fa-quote-left.verde
           i.fas.fa-quote-right.verde
-        h4.text-regular.bloque-texto-f__texto.text-center.p-3 Según Centelsa (2004), estos productos son una forma de fraude al consumidor, ya que aparentan cumplir con las normas, pero no lo hacen. Esta situación compromete la seguridad de las instalaciones, incrementa el riesgo de incendios, eleva el consumo energético y genera sobrecostos al usuario.
+        h4.text-regular.bloque-texto-f__texto.text-center.p-3 #[b Según Centelsa (2004), estos productos son una forma de fraude al consumidor, ya que aparentan cumplir con las normas, pero no lo hacen. Esta situación compromete la seguridad de las instalaciones, incrementa el riesgo de incendios, eleva el consumo energético y genera sobrecostos al usuario.]
 
     p.mb-4 Ejemplos de cables peligrosos comúnmente encontrados:
     

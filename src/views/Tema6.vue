@@ -77,8 +77,9 @@
     p.mb-4 El análisis e interpretación de planos es esencial para comprender la disposición de los elementos estructurales y eléctricos de un proyecto. Se utilizan diferentes tipos de planos:
 
     .row.bgfondo4.justify-content-center
-      .col-lg-6.col-md-12.col-12
-        img.mt-5.mb-4(src='@/assets/curso/temas/t6/img2.png', alt='')
+      .col-lg-8.col-md-12.col-12.borde-redondo
+        .row.borde-redondo
+          img.mt-5.mb-4(src='@/assets/curso/temas/t6/img2.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4.mt-4
       .col-lg-7.col-md-12.col-sm-12
@@ -172,7 +173,7 @@
     p.mb-4 Es el análisis de un esquema gráfico que representa un sistema eléctrico utilizando una sola línea para simplificar la disposición de los circuitos. Este tipo de diagrama facilita la comprensión del flujo de energía y la conexión entre los diferentes componentes eléctricos.
 
     .row.bgfondo5.justify-content-center.align-items-center.mb-5
-      .col-lg-6.col-md-12.col-12
+      .col-lg-10.col-md-12.col-12
         img.mt-5(src='@/assets/curso/temas/t6/img6.png', alt='')
 
     .row.align-items-center.mb-4(data-aos="fade-right")
