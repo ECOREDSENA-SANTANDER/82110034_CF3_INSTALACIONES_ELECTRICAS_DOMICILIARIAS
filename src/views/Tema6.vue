@@ -77,9 +77,15 @@
     p.mb-4 El análisis e interpretación de planos es esencial para comprender la disposición de los elementos estructurales y eléctricos de un proyecto. Se utilizan diferentes tipos de planos:
 
     .row.bgfondo4.justify-content-center
-      .col-lg-8.col-md-12.col-12.borde-redondo
-        .row.borde-redondo
-          img.mt-5.mb-4(src='@/assets/curso/temas/t6/img2.png', alt='')
+      .col-lg-9.col-md-12.col-12
+        .row.justify-content-center.align-items-center.bgblanco.borde-redondo-arriba.mt-5
+          .col-lg-9.mt-3
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 2. 
+              | Planos para instalaciones eléctricas
+        .row.justify-content-center.align-items-center.bgblanco.borde-redondo-abajo.mt-0
+          .col-lg-10.mt-0
+            img.mt-0(src='@/assets/curso/temas/t6/img2.png', alt='La figura presenta la distribución arquitectónica de una vivienda dividida en dos niveles: planta baja y planta alta. En la planta baja se identifican áreas comunes como sala, comedor, cocina, baños y espacios de circulación. La planta alta contiene varias habitaciones, zonas de descanso y servicios complementarios. Este tipo de plano se utiliza como base para el diseño y ubicación de las instalaciones eléctricas de la edificación.')
 
     .row.justify-content-center.align-items-center.mb-4.mt-4
       .col-lg-7.col-md-12.col-sm-12
@@ -156,14 +162,18 @@
       .col-auto.bgamarilloclaro.borde-redondo
         h3.px-1.pt-1.pb-0.mb-1 Interpretación de planos de redes eléctricas
 
-    .row.bgfondo5.justify-content-center.align-items-center.mb-5
+    .row.bgfondo5.justify-content-center.align-items-start.mb-5
       .col-lg-8.col-md-12.col-sm-12
-        p.mt-5.p-1 Consiste en analizar representaciones gráficas de las instalaciones eléctricas de equipos o edificaciones. Estos planos utilizan símbolos y elementos técnicos que permiten identificar y ubicar espacialmente las conexiones eléctricas, lo cual resulta fundamental tanto para su construcción como para tareas de mantenimiento o reparación.
+        p.p-1.mt-4.mb-4 Consiste en analizar representaciones gráficas de las instalaciones eléctricas de equipos o edificaciones. Estos planos utilizan símbolos y elementos técnicos que permiten identificar y ubicar espacialmente las conexiones eléctricas, lo cual resulta fundamental tanto para su construcción como para tareas de mantenimiento o reparación.
         .row
-          .col-lg-10.col-md-12.col-12
+          .col-lg-11.col-md-12.col-12
             img(src='@/assets/curso/temas/t6/img4.png', alt='')
       .col-lg-3.col-md-6.col-12
-        img.mt-5(src='@/assets/curso/temas/t6/img5.png', alt='')
+        .titulo-sexto.color-acento-contenido.mt-4
+          h5 Figura 3. 
+          | Planos y su interpretación
+        figure
+          img(src='@/assets/curso/temas/t6/img5.png', alt='La figura representa el plano arquitectónico de una edificación, en el cual se indica la distribución de espacios y la ubicación de puntos eléctricos, tales como tomacorrientes y luminarias. El trazado incluye las rutas del cableado eléctrico, conectando los dispositivos a través de circuitos distribuidos por diferentes zonas del inmueble. También se identifican los símbolos eléctricos convencionales utilizados para la interpretación técnica del plano.')
 
 
     .row.align-items-center.mb-4(data-aos="fade-right")
@@ -173,8 +183,11 @@
     p.mb-4 Es el análisis de un esquema gráfico que representa un sistema eléctrico utilizando una sola línea para simplificar la disposición de los circuitos. Este tipo de diagrama facilita la comprensión del flujo de energía y la conexión entre los diferentes componentes eléctricos.
 
     .row.bgfondo5.justify-content-center.align-items-center.mb-5
-      .col-lg-10.col-md-12.col-12
-        img.mt-5(src='@/assets/curso/temas/t6/img6.png', alt='')
+      .col-lg-10.col-md-12.col-12.bgblanco.borde-redondo.mt-5
+        .titulo-sexto.color-acento-contenido.mt-3.mx-5.mb-0
+          h5 Figura 4. 
+          | Plano de diagrama unifilar
+        img.mt-0(src='@/assets/curso/temas/t6/img6.png', alt='La figura representa un diagrama unifilar del sistema eléctrico de una edificación con varios departamentos. Se ilustran seis medidores de energía (kWh) conectados a sus respectivas líneas de alimentación, cada una protegida con un interruptor termomagnético de 15 A. Cada línea suministra energía a distintos departamentos numerados del 1 al 6 y a un sistema de servicios propios que alimenta dos bombas de agua. También se indica la potencia asignada a cada circuito, incluyendo los servicios generales (con carga de bombas) y los departamentos, cada uno con una carga de 2.405 W.')
 
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.bgamarilloclaro.borde-redondo
