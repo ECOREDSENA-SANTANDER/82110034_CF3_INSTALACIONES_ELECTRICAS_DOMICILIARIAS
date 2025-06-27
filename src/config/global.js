@@ -79,7 +79,8 @@ export default {
         subMenu: [
           {
             numero: '6.1',
-            titulo: 'Requisitos de obra civil para instalaciones eléctricas',
+            titulo:
+              'Requerimientos de obra civil para instalaciones eléctricas',
             hash: 't_6_1',
           },
         ],
@@ -193,7 +194,7 @@ export default {
     {
       termino: 'Corto circuito',
       significado:
-        'Contacto directo entre conductores que genera un corriente excesiva y peligro.',
+        'Contacto directo entre conductores que genera una corriente excesiva y peligro.',
     },
     {
       termino: 'Puesta a tierra',

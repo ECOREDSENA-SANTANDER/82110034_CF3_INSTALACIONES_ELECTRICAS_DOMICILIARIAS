@@ -25,7 +25,7 @@
             h3.mb-0.text-white ¿Qué es la CEI o IEC?
 
       .row.justify-content-center.align-items-center.mb-2
-        p La #[b Comisión Electrotécnica Internacional CEI o IEC], por sus siglas en inglés #[em International electrotechnical commission], es una organización internacional dedicada a la estandarización en los campos eléctrico, electrónico y de tecnologías afines. Muchas de sus normas se desarrollan conjuntamente con la Organización Internacional de Normalización (ISO), dando lugar a las normas conjuntas ISO/IEC (2013).
+        p La #[b Comisión Electrotécnica Internacional CEI o IEC], por sus siglas en inglés #[em International electrotechnical commission], es una organización internacional dedicada a la estandarización en los campos eléctricos, electrónico y de tecnologías afines. Muchas de sus normas se desarrollan conjuntamente con la Organización Internacional de Normalización (ISO), dando lugar a las normas conjuntas ISO/IEC (2013).
 
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(

@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            'La sigla CEI significa Comisión electrotécnica internacional.',
+            'La sigla CEI significa Comisión Electrotécnica Internacional.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

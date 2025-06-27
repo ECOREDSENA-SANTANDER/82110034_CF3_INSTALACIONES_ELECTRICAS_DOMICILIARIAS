@@ -123,7 +123,7 @@
               .row.justify-content-center.align-items-center
                 .col-sm-12.col-md-12.col-lg-7
                   h3.mt-4 Multímetro
-                  p.mb-3 También conocido como polímetro o tester, es una herramienta multifunción que permite medir distintas magnitudes eléctricas con un solo dispositivo. Entre sus funciones más comunes se encuentran:
+                  p.mb-3 También conocido como polímetro o #[em tester], es una herramienta multifunción que permite medir distintas magnitudes eléctricas con un solo dispositivo. Entre sus funciones más comunes se encuentran:
                   ul.lista-ul--color.lista-ul.fa-al.mb-0
                     li.mb-0
                       i.fas.fa-check-circle

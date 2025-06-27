@@ -31,7 +31,7 @@
                   img.mt-4(data-aos="zoom-in-left")(src='@/assets/curso/temas/t6/tar1-1.png' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.col-md-12.col-sm-12
-                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones visibles:] 
+                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones visibles] 
               p.mb-4.mt-0.text-center(data-aos="fade-right") Todos los componentes están expuestos, sin protección adicional. Se utilizan principalmente en instalaciones temporales o en espacios industriales.   
             .tarjeta.tarjeta--slyder.blanca.px-4
               .row.justify-content-center
@@ -39,7 +39,7 @@
                   img.mt-3(data-aos="zoom-in-left")(src='@/assets/curso/temas/t6/tar1-2.png' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.col-md-12.col-sm-12
-                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones visibles entubadas:] 
+                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones visibles entubadas] 
               p.mb-4.mt-0.text-center(data-aos="fade-right") Los componentes están a la vista, pero protegidos mediante tuberías, cajas de conexión y dispositivos de unión y control.
             .tarjeta.tarjeta--slyder.blanca.px-4
               .row.justify-content-center
@@ -47,7 +47,7 @@
                   img.mt-3(data-aos="zoom-in-left")(src='@/assets/curso/temas/t6/tar1-3.png' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.col-md-12.col-sm-12
-                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones parcialmente ocultas:] 
+                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones parcialmente ocultas] 
               p.mb-4.mt-0.text-center(data-aos="fade-right") Una parte del sistema se instala empotrada en paredes, pisos o techos, mientras que el resto queda visible, generalmente escondida en falsos techos o estructuras.
             .tarjeta.tarjeta--slyder.blanca.px-4
               .row.justify-content-center
@@ -55,7 +55,7 @@
                   img.mt-3(data-aos="zoom-in-left")(src='@/assets/curso/temas/t6/tar1-4.png' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.col-md-12.col-sm-12
-                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones ocultas:] 
+                  p.mb-4.mt-0.text-center.bgverde.text-white.mt-4 #[b Instalaciones ocultas] 
               p.mb-4.mt-0.text-center(data-aos="fade-right") Toda la canalización está empotrada en los elementos estructurales del edificio. solo son visibles los dispositivos finales como enchufes, interruptores y tableros.
 
     Separador  
@@ -65,7 +65,7 @@
     p.mb-4 La correcta ejecución de la obra civil es fundamental para el buen funcionamiento de una instalación eléctrica. Incluye tareas como la preparación del terreno, construcción de canalizaciones, instalación de soportes, protección contra agentes externos y cumplimiento de normativas técnicas.
 
     .row.mb-4(data-aos="fade-left")
-      p.bgmorado.borde-redondo.p-3.text-center #[b Una buena planificación garantiza seguridad, durabilidad y facilidad de mantenimiento.]
+      p.bgmorado.borde-redondo.p-3.text-center Una buena planificación garantiza seguridad, durabilidad y facilidad de mantenimiento.
 
     .subt.mb-4(data-aos="fade-right")
       .row.align-items-center
