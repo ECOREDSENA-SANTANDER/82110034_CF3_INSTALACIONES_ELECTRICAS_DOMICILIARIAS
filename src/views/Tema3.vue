@@ -44,14 +44,14 @@
           i.fas.fa-check-circle
           | Los responsables y tiempos de ejecución de dichas acciones.        
     
-    p.mb-4 Esta herramienta es clave para promover un entorno más seguro, minimizar accidentes laborales y garantizar el cumplimiento de normativas en seguridad eléctrica.
+    p.mb-5 Esta herramienta es clave para promover un entorno más seguro, minimizar accidentes laborales y garantizar el cumplimiento de normativas en seguridad eléctrica.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 1. 
+        h5 Figura 2. 
         | Efectos de la electricidad según la intensidad de corriente
       figure
-        img.mb-2(src='@/assets/curso/temas/t3/fig1.png', alt='La figura indica que los efectos de la corriente eléctrica en el cuerpo dependen de su intensidad. Desde cosquilleo leve (1-3 mA) hasta riesgo de muerte por fibrilación ventricular (60-75 mA). A mayor intensidad, mayores daños: contracciones musculares, paro respiratorio, asfixia y afectación del corazón.')
+        img.mb-2(src='@/assets/curso/temas/t3/fig2.svg', alt='La figura indica que los efectos de la corriente eléctrica en el cuerpo dependen de su intensidad. Desde cosquilleo leve (1-3 mA) hasta riesgo de muerte por fibrilación ventricular (60-75 mA). A mayor intensidad, mayores daños: contracciones musculares, paro respiratorio, asfixia y afectación del corazón.')
       figcaption Fuente: https://www.unirioja.es/servicios/sprl/pdf/riesgos_electricos.pdf
 
 

@@ -81,13 +81,29 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-left')
       .titulo-sexto.color-acento-contenido
-        h5 Tabla 2. 
+        h5 Tabla 1. 
         | Empalmes en desuso
-      figure
-        img.mb-2(src='@/assets/curso/temas/t5/tabla2.png', alt='La tabla presenta cuatro tipos de empalmes eléctricos en desuso o que no se utilizan con frecuencia. Cada uno se identifica por su nombre y una breve descripción del procedimiento y su aplicación. Incluye los empalmes "Cola de rata", "Western", "Derivación sencilla" y "Derivación doble", detallando sus características técnicas y el tipo de cables o situaciones donde se emplean.')
-      figcaption Fuente: Implementación de instalaciones eléctricas, (2017).
-
-
+      
+      .tabla-a.color-acento-contenido.estilo1
+        table(alt="La tabla presenta cuatro tipos de empalmes eléctricos en desuso o que no se utilizan con frecuencia. Cada uno se identifica por su nombre y una breve descripción del procedimiento y su aplicación. Incluye los empalmes: Cola de rata, Western, Derivación sencilla y Derivación doble, detallando sus características técnicas y el tipo de cables o situaciones donde se emplean.")
+          thead
+            tr
+              th(style="width:170px") Nombre
+              th Descripción
+          tbody
+            tr
+              td.sombra #[b Cola de rata]
+              td.izquierdo.sombra Se usa para unir los conductores en las cajas de conexiones. Las puntas se unen paralelas, lo más juntas posibles, después se tuercen las puntas entre sí, con una pinza se sujetan las puntas paralelas y con otra pinza se dan unas cinco vueltas, y las puntas se doblan a lo largo del enrollado para que no rompan la cinta.
+            tr
+              td #[b Western]
+              td.izquierdo El western es un amarre que soporta esfuerzos a la tensión, la punta de un cable se enrolla al rededor del otro alambre, apretando firmemente las vueltas con las pinzas; las vueltas deben estar juntas una de otra.
+            tr
+              td.sombra #[b Derivación sencilla]
+              td.izquierdo.sombra La punta de un conductor se enrolla con cuatro vueltas sobre otro conductor en una parte intermedia.
+            tr
+              td #[b Derivación doble]
+              td.izquierdo Se usa en cables calibre 10 o calibre 8. Unión de cables calibres menores de 10, se usa para prolongar un cable.   
+          caption Fuente: Implementación de instalaciones eléctricas, (2017).
 
 
 

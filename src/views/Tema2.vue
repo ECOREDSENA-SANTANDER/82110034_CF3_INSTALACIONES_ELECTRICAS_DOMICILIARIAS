@@ -337,12 +337,13 @@
     p.mb-4 Estas pruebas se realizaron conforme a los requisitos establecidos por el RETIE, las normas técnicas colombianas (NTC) y las normas internacionales UL, evidenciando múltiples incumplimientos técnicos y riesgos asociados.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-      .titulo-sexto.color-acento-contenido
-        h5 Tabla 1. 
-        | Amperaje que soportan los cables de cobre
-      figure
-        img.mb-2(src='@/assets/curso/temas/t2/tabla1.png', alt='Presenta una tabla con la capacidad de conducción de corriente (amperaje) de los cables de cobre, según el tipo de aislamiento y la temperatura de operación. Se organiza por calibre del cable (desde 14 AWG hasta 4/0 AWG) y clasifica los valores de amperaje soportado en tres niveles de temperatura: 60°C, 75°C y 90°C, con distintos tipos de aislamiento eléctrico como TW, RHW, THW, THWN, THHN, XHHW-2 y THWN-2. Además, se incluye una columna separada para cables con aislamiento tipo SPT a 60°C, que abarca calibres del 20 AWG al 12 AWG, con capacidades desde 2 A hasta 25 A. ')
-      figcaption Fuente: https://masvoltaje.com/img/cms/img_tabla_amperaje.gif
+      .col-lg-9.col-md-12.col-sm-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1. 
+          | Amperaje que soportan los cables de cobre
+        figure
+          img.mb-2(src='@/assets/curso/temas/t2/tabla1.png', alt='Presenta una tabla con la capacidad de conducción de corriente (amperaje) de los cables de cobre, según el tipo de aislamiento y la temperatura de operación. Se organiza por calibre del cable (desde 14 AWG hasta 4/0 AWG) y clasifica los valores de amperaje soportado en tres niveles de temperatura: 60°C, 75°C y 90°C, con distintos tipos de aislamiento eléctrico como TW, RHW, THW, THWN, THHN, XHHW-2 y THWN-2. Además, se incluye una columna separada para cables con aislamiento tipo SPT a 60°C, que abarca calibres del 20 AWG al 12 AWG, con capacidades desde 2 A hasta 25 A. ')
+        figcaption Fuente: https://masvoltaje.com/img/cms/img_tabla_amperaje.gif
 
       
 
