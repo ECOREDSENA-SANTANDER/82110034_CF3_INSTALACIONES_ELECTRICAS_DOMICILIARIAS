@@ -336,17 +336,113 @@
 
     p.mb-4 Estas pruebas se realizaron conforme a los requisitos establecidos por el RETIE, las normas técnicas colombianas (NTC) y las normas internacionales UL, evidenciando múltiples incumplimientos técnicos y riesgos asociados.
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-      .col-lg-9.col-md-12.col-sm-12
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
+      .col-lg-8.col-md-12.col-sm-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1. 
-          | Amperaje que soportan los cables de cobre
-        figure
-          img.mb-2(src='@/assets/curso/temas/t2/tabla1.png', alt='Presenta una tabla con la capacidad de conducción de corriente (amperaje) de los cables de cobre, según el tipo de aislamiento y la temperatura de operación. Se organiza por calibre del cable (desde 14 AWG hasta 4/0 AWG) y clasifica los valores de amperaje soportado en tres niveles de temperatura: 60°C, 75°C y 90°C, con distintos tipos de aislamiento eléctrico como TW, RHW, THW, THWN, THHN, XHHW-2 y THWN-2. Además, se incluye una columna separada para cables con aislamiento tipo SPT a 60°C, que abarca calibres del 20 AWG al 12 AWG, con capacidades desde 2 A hasta 25 A. ')
-        figcaption Fuente: https://masvoltaje.com/img/cms/img_tabla_amperaje.gif
-
+          h5 Tabla 1. 
+          | Amperaje que soportan los cables de cobre según el tipo de aislamiento y temperatura
+        .tabla-a.color-acento-contenido.estilo2
+          table(alt="La tabla presenta el amperaje máximo que pueden soportar los cables de cobre según su calibre (medido en AWG) y el tipo de aislamiento térmico (TW, RHW/THW/THWN y THHN/XHHW-2/THWN-2), considerando tres niveles de temperatura: 60 °C, 75 °C y 90 °C. A medida que aumenta el calibre del cable (es decir, disminuye su número AWG), la capacidad de conducción de corriente también incrementa. Asimismo, los materiales de aislamiento con mayor tolerancia térmica permiten un mayor amperaje soportado.")
+            thead
+                tr
+                  th Calibre del cable<br>(AWG)
+                  th TW (60 °C)
+                  th RH, THW, THWN (75 °C)
+                  th THHN, XHHW-2, THWN-2 (90 °C)
+            tbody
+              tr
+                td 14 AWG
+                td 15 A
+                td 15 A
+                td 15 A
+              tr
+                td 12 AWG
+                td 20 A
+                td 20 A
+                td 20 A
+              tr
+                td 10 AWG
+                td 30 A
+                td 30 A
+                td 30 A
+              tr
+                td 8 AWG
+                td 40 A
+                td 50 A
+                td 55 A
+              tr
+                td 6 AWG
+                td 55 A
+                td 65 A
+                td 75 A
+              tr
+                td 4 AWG
+                td 70 A
+                td 85 A
+                td 95 A
+              tr
+                td 3 AWG
+                td 85 A
+                td 100 A
+                td 115 A
+              tr
+                td 2 AWG
+                td 95 A
+                td 115 A
+                td 130 A
+              tr
+                td 1 AWG
+                td 110 A
+                td 130 A
+                td 150 A
+              tr
+                td 1/0 AWG
+                td 125 A
+                td 145 A
+                td 170 A
+              tr
+                td 2/0 AWG
+                td 145 A
+                td 175 A
+                td 195 A
+              tr
+                td 3/0 AWG
+                td 165 A
+                td 200 A
+                td 225 A
+              tr
+                td 4/0 AWG
+                td 195 A
+                td 230 A
+                td 260 A
       
-
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
+      .col-lg-6.col-md-12.col-sm-12
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 2. 
+          | Amperaje de cables con aislamiento SPT a 60 °C
+        .tabla-a.color-acento-contenido.estilo2
+          table(alt="La tabla presenta la capacidad de conducción de corriente en amperios de cables con aislamiento SPT a una temperatura de 60 °C. A medida que disminuye el número AWG (aumenta el grosor del conductor), el amperaje soportado es mayor. Por ejemplo, un cable 20 AWG soporta 2 A, mientras que uno de 12 AWG puede soportar hasta 25 A.")
+            thead
+              tr
+                th Calibre del cable<br>(AWG)
+                th Amperaje soportado
+            tbody
+              tr
+                td 20 AWG
+                td 2 A
+              tr
+                td 18 AWG
+                td 10 A
+              tr
+                td 16 AWG
+                td 13 A
+              tr
+                td 14 AWG
+                td 18 A
+              tr
+                td 12 AWG
+                td 25 A
 
 </template>
 

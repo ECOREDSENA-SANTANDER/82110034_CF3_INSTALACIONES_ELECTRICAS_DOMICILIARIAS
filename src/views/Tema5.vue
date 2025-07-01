@@ -81,7 +81,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-left')
       .titulo-sexto.color-acento-contenido
-        h5 Tabla 1. 
+        h5 Tabla 3. 
         | Empalmes en desuso
       
       .tabla-a.color-acento-contenido.estilo1

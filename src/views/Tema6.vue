@@ -81,7 +81,7 @@
         .row.justify-content-center.align-items-center.bgblanco.borde-redondo-arriba.mt-5
           .col-lg-9.mt-3
             .titulo-sexto.color-acento-contenido
-              h5 Figura 3. 
+              h5 Figura 2. 
               | Planos para instalaciones eléctricas
         .row.justify-content-center.align-items-center.bgblanco.borde-redondo-abajo.mt-0
           .col-lg-10.mt-0
@@ -170,7 +170,7 @@
             img(src='@/assets/curso/temas/t6/img4.png', alt='')
       .col-lg-3.col-md-6.col-12
         .titulo-sexto.color-acento-contenido.mt-4
-          h5 Figura 4. 
+          h5 Figura 3. 
           | Planos y su interpretación
         figure
           img(src='@/assets/curso/temas/t6/img5.png', alt='La figura representa el plano arquitectónico de una edificación, en el cual se indica la distribución de espacios y la ubicación de puntos eléctricos, tales como tomacorrientes y luminarias. El trazado incluye las rutas del cableado eléctrico, conectando los dispositivos a través de circuitos distribuidos por diferentes zonas del inmueble. También se identifican los símbolos eléctricos convencionales utilizados para la interpretación técnica del plano.')
@@ -185,7 +185,7 @@
     .row.bgfondo5.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-12.col-12.bgblanco.borde-redondo.mt-5
         .titulo-sexto.color-acento-contenido.mt-3.mx-5.mb-0
-          h5 Figura 5. 
+          h5 Figura 4. 
           | Plano de diagrama unifilar
         img.mt-0(src='@/assets/curso/temas/t6/img6.png', alt='La figura representa un diagrama unifilar del sistema eléctrico de una edificación con varios departamentos. Se ilustran seis medidores de energía (kWh) conectados a sus respectivas líneas de alimentación, cada una protegida con un interruptor termomagnético de 15 A. Cada línea suministra energía a distintos departamentos numerados del 1 al 6 y a un sistema de servicios propios que alimenta dos bombas de agua. También se indica la potencia asignada a cada circuito, incluyendo los servicios generales (con carga de bombas) y los departamentos, cada uno con una carga de 2.405 W.')
 

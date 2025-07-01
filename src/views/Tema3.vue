@@ -48,7 +48,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .titulo-sexto.color-acento-contenido
-        h5 Figura 2. 
+        h5 Figura 1. 
         | Efectos de la electricidad según la intensidad de corriente
       figure
         img.mb-2(src='@/assets/curso/temas/t3/fig2.svg', alt='La figura indica que los efectos de la corriente eléctrica en el cuerpo dependen de su intensidad. Desde cosquilleo leve (1-3 mA) hasta riesgo de muerte por fibrilación ventricular (60-75 mA). A mayor intensidad, mayores daños: contracciones musculares, paro respiratorio, asfixia y afectación del corazón.')
