@@ -270,7 +270,7 @@
         ul.lista-ul--color.lista-ul.fa-al
           li.mb-0
             i.fas.fa-check-circle
-            p.mb-0 #[b Marcado en el aislamiento:] fabricante 1, alambre TW, 12 AWG, 600V, 75° C.
+            p.mb-0 #[b Marcado en el aislamiento:] fabricante 1, alambre TW, 12 AWG, 600 V, 75° C.
           li.mb-0
             i.fas.fa-check-circle
             p.mb-0 #[b Valor real esperado:] según la norma, el conductor de cobre calibre 12 AWG debe tener un diámetro de 2.05 mm.
@@ -279,11 +279,11 @@
             p.mb-0 #[b Hallazgo en laboratorio:] el diámetro real del conductor en las muestras evaluadas no supera los 1.60 mm, lo cual ni siquiera corresponde al calibre 14 AWG, evidenciando una clara subvaloración del material conductor.
         .row.align-items-center.mb-3(data-aos="fade-right")
           .col-auto.bgamarilloclaro.borde-redondo
-            h3.px-1.pt-1.pb-0.mb-1 b) Cable dúplex para instalación interior calibre 2x18 AWG
+            h3.px-1.pt-1.pb-0.mb-1 b) Cable dúplex para instalación interior calibre 2 x 18 AWG
         ul.lista-ul--color.lista-ul.fa-al
           li.mb-0
             i.fas.fa-check-circle
-            p.mb-0 #[b Marcado en el aislamiento:] fabricante 1, cable dúplex flexible, 2x18 AWG, 300V, 75° C.
+            p.mb-0 #[b Marcado en el aislamiento:] fabricante 1, cable dúplex flexible, 2 x 18 AWG, 300 V, 75° C.
           li.mb-0
             i.fas.fa-check-circle
             p.mb-0 #[b Valor real esperado:] un cable 18 AWG flexible debe tener 16 hilos de cobre, con un diámetro mínimo de 0.251 mm cada uno.

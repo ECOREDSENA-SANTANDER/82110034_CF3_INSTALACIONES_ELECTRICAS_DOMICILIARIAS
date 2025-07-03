@@ -25,7 +25,7 @@
             h3.mb-0.text-white ¿Qué es la CEI o IEC?
 
       .row.justify-content-center.align-items-center.mb-2
-        p La #[b Comisión Electrotécnica Internacional CEI o IEC], por sus siglas en inglés #[em International electrotechnical commission], es una organización internacional dedicada a la estandarización en los campos eléctricos, electrónico y de tecnologías afines. Muchas de sus normas se desarrollan conjuntamente con la Organización Internacional de Normalización (ISO), dando lugar a las normas conjuntas ISO/IEC (2013).
+        p La #[b Comisión Electrotécnica Internacional CEI o IEC], por sus siglas en inglés International Electrotechnical Commission, es una organización internacional dedicada a la estandarización en los campos eléctricos, electrónico y de tecnologías afines. Muchas de sus normas se desarrollan conjuntamente con la Organización Internacional de Normalización (ISO), dando lugar a las normas conjuntas ISO/IEC (2013).
 
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
@@ -42,15 +42,15 @@
         .col-lg-4.col-md-6.mb-3
           .tarjeta.tarj-hover.text-center.p-4.h-100
             img.mb-0(src='@/assets/curso/temas/t1/tar1-1.png', alt='')
-            p.mb-0 El “Gauss”, proviene del apellido del matemático y físico alemán Carl Friedrich Gauss y es una unidad del sistema CGS (centímetro-gramo-segundo) para el campo magnético.  
+            p.mb-0 El “gauss”, proviene del apellido del matemático y físico alemán Carl Friedrich Gauss y es una unidad del sistema CGS (centímetro - gramo - segundo) para el campo magnético.  
         .col-lg-4.col-md-6.mb-3
           .tarjeta.tarj-hover.text-center.p-4.h-100
             img.mb-0(src='@/assets/curso/temas/t1/tar1-1.png', alt='')
-            p.mb-0 El hercio (#[em Hertz]), proviene del físico alemán Heinrich Hertz, y se entiende como la unidad de frecuencia en el “SI” (un ciclo por segundo).
+            p.mb-0 El hercio (hertz), proviene del físico alemán Heinrich Hertz, y se entiende como la unidad de frecuencia en el “SI” (un ciclo por segundo).
         .col-lg-4.col-md-6.mb-3
           .tarjeta.tarj-hover.text-center.p-4.h-100
             img.mb-0(src='@/assets/curso/temas/t1/tar1-1.png', alt='')
-            p.mb-0 El Weber, proviene del físico alemán Wilhelm Eduard Weber. Es la unidad de flujo magnético en el “SI”.
+            p.mb-0 El weber, proviene del físico alemán Wilhelm Eduard Weber. Es la unidad de flujo magnético en el “SI”.
 
       .row.justify-content-center.align-items-center.mb-4.bgmorado.borde-redondo
         p.px-5.py-3.mt-2 #[b Nota: el Sistema Internacional de Unidades (SI)], sirve para unificar y estandarizar las mediciones a nivel mundial, permitiendo que científicos, ingenieros y profesionales de diferentes países hablen el mismo idioma en cuanto a unidades de medida, como el metro, el kilogramo o el segundo; facilitando la comunicación, la comparación de datos y el avance de la ciencia y la tecnología.

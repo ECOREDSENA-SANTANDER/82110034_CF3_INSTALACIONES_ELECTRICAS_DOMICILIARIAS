@@ -19,7 +19,7 @@
                 img(src='@/assets/curso/ico_subt.svg', alt='')
               .col-md-auto.col-9.ps-0
                 h3.mb-0.text-white Técnicas de pelado de los conductores eléctricos
-        .row.mt-5(data-aos="fade-left")
+        .row.mt-5
           p.bgmorado.borde-redondo.p-4 Antes de realizar un empalme, es necesario retirar el aislamiento de los extremos del cable (pelado), dejando expuesto el conductor metálico; este proceso debe realizarse cuidadosamente para evitar dañar los hilos conductores, lo cual podría afectar la calidad del amarre y generar riesgos eléctricos. Existen varias herramientas y métodos para ello:
       .col-lg-1
       .col-lg-3.col-md-6.col-12
