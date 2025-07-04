@@ -42,7 +42,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Reglamento técnico de instalaciones eléctricas (RETIE) ',
+        titulo: 'Reglamento Técnico de Instalaciones Eléctricas (RETIE) ',
         desarrolloContenidos: true,
         subMenu: [
           {
