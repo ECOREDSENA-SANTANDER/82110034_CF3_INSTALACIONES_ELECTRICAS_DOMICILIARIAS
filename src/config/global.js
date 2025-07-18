@@ -74,7 +74,7 @@ export default {
         nombreRuta: 'tema6',
         numero: '6',
         titulo:
-          'Obra civil y requisitos técnicos para instalaciones eléctricas',
+          'Obra civil y requerimientos técnicos para instalaciones eléctricas',
         desarrolloContenidos: true,
         subMenu: [
           {
