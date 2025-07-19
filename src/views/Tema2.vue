@@ -119,7 +119,7 @@
                   | Exigir la confiabilidad y compatibilidad técnica de los productos y equipos eléctricos contemplados expresamente en el reglamento, para asegurar un funcionamiento seguro y eficiente.  
           .row(titulo="Campo de aplicación del RETIE")
             .col-md-12.pe-lg-5
-              p.mb-3 El Reglamento técnico de instalaciones eléctricas (RETIE) aplica en Colombia desde el 30 de abril de 2005, y su cumplimiento es obligatorio en los siguientes casos:
+              p.mb-3 El Reglamento Técnico de Instalaciones Eléctricas (RETIE) aplica en Colombia desde el 30 de abril de 2005, y su cumplimiento es obligatorio en los siguientes casos:
               h6.mb-2 #[b A. Aplicación general]
               ul.lista-ul--color.lista-ul.fa-al
                 li.mb-0
@@ -334,7 +334,7 @@
       .col-lg-4.col-md-6.col-6
         img(src='@/assets/curso/temas/t2/img4.png', alt='')
 
-    p.mb-4 Estas pruebas se realizaron conforme a los requisitos establecidos por el RETIE, las normas técnicas colombianas (NTC) y las normas internacionales UL, evidenciando múltiples incumplimientos técnicos y riesgos asociados.
+    p.mb-4 Estas pruebas se realizaron conforme a los requisitos establecidos por el RETIE, las Normas Técnicas Colombianas (NTC) y las normas internacionales UL, evidenciando múltiples incumplimientos técnicos y riesgos asociados.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-8.col-md-12.col-sm-12
@@ -398,7 +398,7 @@
               tr
                 td 1/0 AWG
                 td 125 A
-                td 145 A
+                td 150 A
                 td 170 A
               tr
                 td 2/0 AWG

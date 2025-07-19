@@ -93,7 +93,7 @@
                 img(src='@/assets/curso/temas/t4/tar5-2.png', alt='Texto que describa la imagen')
             .col-md-8
               h3 Uso de lámparas portátiles
-              p Aunque se recomienda evitar el uso de lámparas eléctricas portátiles, cuando su uso sea indispensable deben estar provistas de portalámparas aislantes, cables en buen estado y enchufes seguros, los cuales deben ser inspeccionados regularmente.
+              p Aunque se recomienda evitar el uso de lámparas eléctricas portátiles, cuando su uso sea indispensable, deben estar provistas de portalámparas aislantes, cables en buen estado y enchufes seguros, los cuales deben ser inspeccionados regularmente.
           .row
             .col-md-8.mb-4.mb-md-0
               h3 Protección de motores eléctricos

@@ -51,7 +51,7 @@ export default {
         {
           id: 2,
           texto:
-            'El Reglamento técnico para instalaciones eléctricas – RETIE, establece las medidas que garantizan el derecho al voto para todos los colombianos.',
+            'El Reglamento Técnico para Instalaciones Eléctricas – RETIE, establece las medidas que garantizan el derecho al voto para todos los colombianos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

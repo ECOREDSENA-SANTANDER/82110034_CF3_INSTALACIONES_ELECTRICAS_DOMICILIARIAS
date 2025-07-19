@@ -96,7 +96,7 @@
               td.izquierdo.sombra Se usa para unir los conductores en las cajas de conexiones. Las puntas se unen paralelas, lo más juntas posibles, después se tuercen las puntas entre sí, con una pinza se sujetan las puntas paralelas y con otra pinza se dan unas cinco vueltas, y las puntas se doblan a lo largo del enrollado para que no rompan la cinta.
             tr
               td #[b Western]
-              td.izquierdo El western es un amarre que soporta esfuerzos a la tensión, la punta de un cable se enrolla al rededor del otro alambre, apretando firmemente las vueltas con las pinzas; las vueltas deben estar juntas una de otra.
+              td.izquierdo El western es un amarre que soporta esfuerzos a la tensión, la punta de un cable se enrolla alrededor del otro alambre, apretando firmemente las vueltas con las pinzas; las vueltas deben estar juntas una de otra.
             tr
               td.sombra #[b Derivación sencilla]
               td.izquierdo.sombra La punta de un conductor se enrolla con cuatro vueltas sobre otro conductor en una parte intermedia.
